@@ -1,7 +1,8 @@
 function Hero() {
-    return(
+    return (
         <>
-        <h1>This is the Hero Section</h1>
+            <h1>Fracas</h1>
+            <h2>Still in the process of learning...</h2>
         </>
     )
 }
