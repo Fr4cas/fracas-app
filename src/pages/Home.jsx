@@ -2,6 +2,7 @@ import { useState } from 'react'
 import About from '../components/About'
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
+import Hobby from '../components/Hobby'
 
 function Home() {
     const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function Home() {
                 </button>
             </div>
             <About />
+            <Hobby />
         </>
     )
 }
