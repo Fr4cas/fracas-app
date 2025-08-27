@@ -3,6 +3,7 @@ import About from '../components/About'
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Hobby from '../components/Hobby'
+import Footer from '../components/Footer'
 
 function Home() {
     const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function Home() {
             </div>
             <About />
             <Hobby />
+            <Footer />
         </>
     )
 }
