@@ -1,9 +1,17 @@
 function Hobby() {
+    const hobbies = [{ title: "Gaming" }, { title: "Music" }, { title: "Coding" }];
+
     return (
         <>
-            <p>This will contain my hobbies</p>
+            <div className="hobby-container">
+                {hobbies.map((hobby, index) => (
+                    <div className="hobby-card" key={index}>
+                        <h3>{hobby.title}</h3>
+                    </div>
+                ))}
+            </div>
         </>
-    )
+    );
 }
 
-export default Hobby
+export default Hobby;
