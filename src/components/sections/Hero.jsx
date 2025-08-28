@@ -1,9 +1,13 @@
+import '../../styles/sections/Hero.css'
+
 function Hero() {
     return (
         <>
             <section>
-                <h1>Fracas</h1>
-                <h2>Still in the process of learning...</h2>
+                <div className="hero__content">
+                    <h1>Fracas</h1>
+                    <h2>Still in the process of learning...</h2>
+                </div>
             </section>
         </>
     )
