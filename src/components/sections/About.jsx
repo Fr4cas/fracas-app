@@ -4,11 +4,11 @@ function About() {
     return (
         <section>
             <div className="about__content">
-                <div className='about__info'>
+                <div className="about__info box">
                     <h2>Hello, I'm Fracas!</h2>
                     <p>Currently a university student learning programming, I enjoy playing games and basically anything anime. Below you'll find more information about me.</p>
                 </div>
-                <div className="about__stats">
+                <div className="about__stats box">
                     <ul>
                         <li>current status: Online...</li>
                         <li>location: ...</li>
@@ -17,7 +17,7 @@ function About() {
                         <li>set up: ...</li>
                     </ul>
                 </div>
-                <div className="about__links">
+                <div className="about__links box">
                     <ul>
                         <li>discord</li>
                         <li>spotify</li>

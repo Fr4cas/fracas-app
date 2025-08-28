@@ -22,7 +22,9 @@
 
   --primary-color: #4339ac;
   --secondary-color-dark: #23222a;
-  --secondary-color-light: #3a3946;
+  --secondary-color-light: #2f2e38;
+  --secondary-color-lighter: #3a3946;
+  --secondary-color-lightest: #464554;
 
   --text-primary-color: #9f8c9e;
 }
@@ -52,6 +54,13 @@ main {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.box {
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: var(--secondary-color-lighter);
+    background-clip: content-box;
 }
 
 button {
