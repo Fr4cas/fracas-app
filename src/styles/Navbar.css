@@ -1,21 +1,42 @@
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #222;
-  box-shadow: 0 1px 0 #FFFFFF4D;
-  padding: 1rem;
-  z-index: 1000;
+.header__nav {
+  display: flex;
+  overflow: hidden;
 }
 
-.navbar ul {
-  margin: 0;
-  padding: 0;
+.header__logo {
+  flex: 1;
   display: flex;
+  position: relative;
+}
+
+.header__logo-overlay {
+  padding: 4px;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  z-index: -1;
+}
+
+.header__logo h4 {
+  padding-left: 30px;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.header__menu {
+  padding: 20px;
+  flex: 1.236;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4rem;
   list-style: none;
 }
 
-.navbar li {
-  margin-right: 1rem;
+.header__menu li {
+  text-transform: uppercase;
+  line-height: 20px;
+  cursor: pointer;
 }

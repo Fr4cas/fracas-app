@@ -4,9 +4,24 @@ import '../styles/Navbar.css'
 function Navbar() {
     return (
         <header>
-            <nav className="navbar">
-                <ul>
-                    <li>this will be the navbar</li>
+            <nav className="header__nav">
+                <div className="header__logo">
+                    <h4>Fracas</h4>
+                    <div className="header__logo-overlay"></div>
+                </div>
+                <ul className="header__menu">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
                 </ul>
             </nav>
         </header>
