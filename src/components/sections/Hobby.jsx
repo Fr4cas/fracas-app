@@ -4,7 +4,6 @@ import '../../styles/sections/Hobby.css';
 function Hobby() {
     const hobbies = [
         // TODO: add descriptions
-        { title: "Gaming", description: "" },
         { title: "Music", description: "" },
         { title: "Coding", description: "" },
         { title: "Japanese", description: "" }
@@ -14,7 +13,9 @@ function Hobby() {
         <>
             <section>
                 <div className="hobby__content">
+                    <h2>These are some things that I enjoy doing!</h2>
                     <div className="hobby-container">
+                        <Gaming />
                         {hobbies.map((hobby, index) => (
                             <div className="hobby-card" key={index}>
                                 <h3>{hobby.title}</h3>

@@ -2,4 +2,5 @@
     padding: 1rem;
     background-color: var(--secondary-color-light);
     background-clip: content-box;
+    border-radius: 1.5rem;
 }

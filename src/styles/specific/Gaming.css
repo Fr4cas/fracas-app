@@ -1,0 +1,19 @@
+.game-card {
+  background-color: #2a2a2a;
+  margin: 2rem !important; 
+  padding: 1rem;
+  max-width: 10rem;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.game-card h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.game-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
