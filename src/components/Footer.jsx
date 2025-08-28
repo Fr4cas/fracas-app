@@ -1,4 +1,4 @@
-import '../styles/sections/Footer.css'
+import '../styles/layout/Footer.css'
 import githubLogo from "../assets/logos/github-white.svg"
 
 function Footer() {
