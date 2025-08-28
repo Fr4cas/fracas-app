@@ -4,7 +4,8 @@ function About() {
     return (
         <section>
             <div>
-                <p>Inside this section here I will write a little about myself</p>
+                <h2>Hello, I'm Fracas!</h2>
+                <p>Currently a university student learning programming, I enjoy playing games and basically anything anime. Below you'll find more information about me.</p>
             </div>
         </section>
 
