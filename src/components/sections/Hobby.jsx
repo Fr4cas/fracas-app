@@ -1,3 +1,5 @@
+import Gaming from "../specific/Gaming";
+
 function Hobby() {
     const hobbies = [
         // TODO: add descriptions

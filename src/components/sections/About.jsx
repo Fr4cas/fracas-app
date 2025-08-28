@@ -1,4 +1,4 @@
-import '../styles/sections/About.css'
+import '../../styles/sections/About.css'
 
 function About() {
     return (
