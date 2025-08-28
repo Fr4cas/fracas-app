@@ -11,14 +11,18 @@ function Home() {
     return (
         <>
             <Navbar />
-            <Hero />
-            <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
-                    count is {count}
-                </button>
-            </div>
-            <About />
-            <Hobby />
+
+            <main>
+                <Hero />
+                <div className="card">
+                    <button onClick={() => setCount((count) => count + 1)}>
+                        count is {count}
+                    </button>
+                </div>
+                <About />
+                <Hobby />
+            </main>
+
             <Footer />
         </>
     )

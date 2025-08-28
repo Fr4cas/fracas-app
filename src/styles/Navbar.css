@@ -4,6 +4,7 @@
   left: 0;
   width: 100%;
   background-color: #222;
+  box-shadow: 0 1px 0 #FFFFFF4D;
   padding: 1rem;
   z-index: 1000;
 }
