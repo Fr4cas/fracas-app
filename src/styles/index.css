@@ -46,6 +46,7 @@ body {
 main {
   padding: 0 4rem;
   background-color: var(--secondary-color-dark);
+  background-clip: content-box;
 }
 
 h1 {

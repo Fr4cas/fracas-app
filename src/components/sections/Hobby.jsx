@@ -1,4 +1,5 @@
 import Gaming from "../specific/Gaming";
+import '../../styles/sections/Hobby.css';
 
 function Hobby() {
     const hobbies = [
@@ -12,13 +13,15 @@ function Hobby() {
     return (
         <>
             <section>
-                <div className="hobby-container">
-                    {hobbies.map((hobby, index) => (
-                        <div className="hobby-card" key={index}>
-                            <h3>{hobby.title}</h3>
-                            <p>{hobby.description}</p>
-                        </div>
-                    ))}
+                <div className="hobby__content">
+                    <div className="hobby-container">
+                        {hobbies.map((hobby, index) => (
+                            <div className="hobby-card" key={index}>
+                                <h3>{hobby.title}</h3>
+                                <p>{hobby.description}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </section>
 
